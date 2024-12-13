@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <title>Ministore</title>
+</head>
+<body>
+
+    <header class="bg-white text-black">
+        <nav class="navbar navbar-expand-sm px-3 mb-3">
+            <div class="container-fluid mt-2">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/main-logo.png" class="logo" alt="main-logo"></a> 
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapseNavbar">
+                <ul class="navbar-nav me-5">
+                    <li class="nav-item"><a href="index.html" class="nav-link mx-3">HOME</a></li>
+                    <li class="nav-item"><a href="" class="nav-link mx-3">SERVICES</a></li>
+                    <li class="nav-item"><a href="" class="nav-link mx-3">PRODUCT</a></li>
+                    <li class="nav-item"><a href="" class="nav-link mx-3">WATCHES</a></li>
+                    <li class="nav-item"><a href="" class="nav-link mx-3">SALE</a></li>
+                    <li class="nav-item"><a href="" class="nav-link mx-3">BLOG</a></li>
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link text-black dropdown-toggle" data-bs-toggle="dropdown">PAGES</a>
+                <ul class="dropdown-menu">
+                    <li><a href="" class="dropdown-item">ABOUT</a></li>
+                    <li><a href="" class="dropdown-item">BLOG</a></li>
+                    <li><a href="" class="dropdown-item">SHOP</a></li>
+                    <li><a href="" class="dropdown-item">CART</a></li>
+                    <li><a href="" class="dropdown-item">CHECKOUT</a></li>
+                    <li><a href="" class="dropdown-item">SINGLE POST</a></li>
+                    <li><a href="" class="dropdown-item">SINGLE PRODUCT</a></li>
+                    <li><a href="" class="dropdown-item">CONTACT</a></li>
+                </ul>
+                </li>
+                </ul>
+           </div>
+           <div class="header-icon mt-2 justify-content-end">
+            <i class="fa-solid fa-magnifying-glass me-3"></i>
+            <i class="fa-solid fa-user me-3"></i>
+            <i class="fa-solid fa-cart-shopping me-3"></i>
+            <img src="" alt="">
+        </div>
+        </div>
+        </nav>
+    </header>
+
+   <!-- <section >
+        <div class="container-fluid bg-light">
+            <div class="container d-flex align-items-center">
+                <div class="banner-content">
+                    <h1 class="display-2 text-uppercase text-dark pb-5">
+                        YOUR PRODUCTS ARE GREAT.</h1>
+                    <button class="btn-product btn-large">SHOP PRODUCT</button>
+                </div>
+                <img src="assets/banner-image.png" alt="">
+            </div>
+        </div>
+    </section> -->
+
+    <section>
+     <div class="container-fluid bg-secondary">
+      <div class="container d-flex align-items-center">
+      <div class="carousel slide" data-bs-slide="carousel" id="mycarousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <div class="carousel-inner c-item">
+            <div class="carousel-item active">
+               <div class="banner">
+
+                <div class="banner-content">
+                    <h1 class="display-2 text-uppercase text-dark pb-5">
+                            YOUR PRODUCTS ARE GREAT.</h1>
+                    <button class="btn-product btn-large">SHOP PRODUCT</button>
+                </div>
+
+                     <img src="assets/banner-image.png" alt="banner-image">
+
+               </div>
+
+            </div>
+
+            <div class="carousel-item">
+                <div class="banner">
+                    <div class="banner-content">
+                        <h1 class="display-2 text-uppercase text-dark pb-5">
+                            TECHNOLOGY <br> HACK YOU <br> WON'T GET </h1>
+                        <button class="btn-product btn-large">SHOP PRODUCT</button>
+                    </div>
+                        <img src="assets/banner-image.png" alt="banner-image">
+                </div>
+            </div>
+            
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+      </div>
+     </div>
+    </section>
+    
+    <section id="company-services" class="padding-large">
+        <div class="container">
+             <div class="row">
+                <div class="col-lg-3 md-6 pb-3">
+                <div class="icon-box d-flex">
+                    <div class="icon-box-icon pe-3 pb-3">
+                     <img src="/assets/shopping_cart_30dp_7CA7D8_FILL0_wght400_GRAD0_opsz24.png" alt="shopping cart"
+                      width="40px" height="40px">
+                    </div>
+                <div class="icon-box-content">
+                    <h3 class="card-title text-uppercase text-black">
+                        Free delivery
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 md-6 pb-3">
+                    <div class="icon-box d-flex">
+                        <div class="icon-box-icon pe-3 pb-3">
+                         <img src="assets/badged.png" alt="badged"
+                          width="40px" height="40px">
+                        </div>
+                    <div class="icon-box-content">
+                        <h3 class="card-title text-uppercase text-black">
+                            QUALITY GUARANTEE
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-3 md-6 pb-3">
+                        <div class="icon-box d-flex">
+                            <div class="icon-box-icon pe-3 pb-3">
+                             <img src="assets/tag.png" alt="tag"
+                              width="40px" height="40px">
+                            </div>
+                        <div class="icon-box-content">
+                            <h3 class="card-title text-uppercase text-black">
+                                DAILY OFFERS
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="col-lg-3 md-6 pb-3">
+                            <div class="icon-box d-flex">
+                                <div class="icon-box-icon pe-3 pb-3">
+                                 <img src="assets/secure.png" alt="secure"
+                                  width="40px" height="40px">
+                                </div>
+                            <div class="icon-box-content">
+                                <h3 class="card-title text-uppercase text-black">
+                                    100% SECURE PAYMENT
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                            </div>
+                    </div>
+             </div>
+        </div>
+    </section>
+
+    <section id="mobile-product" class="product-store padding-large no-padding-top">
+        <div class="container justify-content-between">
+            <div class="display-header d-flex justify-content-between pb-3">
+                  <h2 class="display-7 text-dark text-uppercase">Mobile product</h2>
+                <div class="btn-right">
+                    <a href="index.html" class="btn btn-medium btn-normal text-uppercase">GO TO SHOP</a>
+                </div>
+            </div>
+            <div class="post-grid d-flex flex-wrap justify-content-between">
+                <div class="phone1">
+
+                    <div class="product-card">
+                        <img src="assets/product-item1.jpg" class="mb-3" alt="product-item1">
+
+                        <div class="cart-button ">
+                            <button class="button-cart">ADD TO CART
+                                <img src="assets/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 2.png"
+                                 alt="" width="20px" height="20px">
+                            </button>
+                        </div>
+
+                    </div>
+
+                        <div class="card-details d-flex justify-content-between align-items-baseline">
+                            <h3 class="card-title">IPHONE 10</h3>
+                            <span class="item-price text-primary">$980</span>
+                        </div>
+                </div> 
+
+                <div class="phone2">
+
+                    <div class="product-card">
+                        <img src="assets/product-item2.jpg" class="mb-3" alt="product-item2">
+
+                        <div class="cart-button ">
+                            <button class="button-cart">ADD TO CART
+                                <img src="assets/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 2.png"
+                                 alt="" width="20px" height="20px">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-details d-flex justify-content-between align-items-baseline">
+                        <h3 class="card-title">IPHONE 11</h3>
+                        <span class="item-price text-primary">$1100</span>
+                    </div>
+                </div>
+
+                <div class="phone3">
+
+                    <div class="product-card">
+                        <img src="assets/product-item5.jpg" class="mb-3" alt="product-item5">
+
+                    <div class="cart-button ">
+                        <button class="button-cart">ADD TO CART
+                            <img src="assets/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 2.png"
+                             alt="shopping-cart" width="20px" height="20px">
+                        </button>
+                    </div>
+                    </div>
+
+                    <div class="card-details d-flex justify-content-between align-items-baseline">
+                        <h3 class="card-title">IPHONE 13</h3>
+                        <span class="item-price text-primary">$1500</span>
+                    </div>     
+               </div> 
+
+           </div>
+        </div>
+    </section>
+
+
+    <section id="mobile-product" class="product-store padding-large no-padding-top mb-5">
+        <div class="container">
+               <div class="display-header d-flex justify-content-between pb-3">
+                <h2 class="display-7 text-dark text-uppercase">SMART WATCHES</h2>
+                <div class="btn-right">
+                    <a href="index.html" class="btn btn-medium btn-normal t ext-uppercase">GO TO SHOP</a>
+                </div>
+              </div>
+
+            <div class="post-grid d-flex flex-wrap justify-content-between">
+
+                <div class="watch1">
+
+                    <div class="product-card">
+                        <img src="assets/product-item6.jpg" class="mb-3" alt="product-item6">
+
+                    <div class="cart-button ">
+                        <button class="button-cart">ADD TO CART
+                            <img src="assets/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 2.png"
+                             alt="" width="20px" height="20px">
+                        </button>
+                    </div>
+
+                    </div>
+
+                    <div class="card-details d-flex justify-content-between align-items-baseline">
+                        <h3 class="card-title">PINK WATCH</h3>
+                        <span class="item-price text-primary">$870</span>
+                    </div>
+                </div> 
+
+                <div class="watch2">
+
+                    <div class="product-card">
+                        <img src="assets/product-item7.jpg" class="mb-3" alt="product-item7">
+
+                        <div class="cart-button ">
+                            <button class="button-cart">ADD TO CART
+                                <img src="assets/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 2.png"
+                                 alt="" width="20px" height="20px">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-details d-flex justify-content-between align-items-baseline">
+                        <h3 class="card-title">HEAVY WATCH</h3>
+                        <span class="item-price text-primary">$680</span>
+                    </div>
+               </div> 
+
+                <div class="watch3">
+
+                    <div class="product-card">
+                        <img src="assets/product-item9.jpg" class="mb-3" alt="product-item9">
+
+                    <div class="cart-button ">
+                      <button class="button-cart">ADD TO CART
+                        <img src="assets/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24 2.png"
+                          alt="" width="20px" height="20px">
+                       </button>
+                    </div>
+                    </div>
+
+                    <div class="card-details d-flex justify-content-between align-items-baseline">
+                       <h3 class="card-title">BLACK WATCH</h3>
+                       <span class="item-price text-primary">$650</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light overflow-hidden mt-5"
+     style="background-image: url(assets/download.png);
+             background-position: right; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="text-content 0ffset-4 padding-medium">
+                            <h3>10% off</h3>
+                            <h2 class="display-2 pb-5 text-uppercase text-dark">New <br> year sale</h2>
+                            <a href="index.html" class="btn btn-dark text-uppercase btn-medium btn-rounded-none">
+                                Shop Sale</a>
+                        </div>
+                    </div>
+              </div>
+        </div>
+    </section>
+
+
+    <section id="latest-blog" class="padding-large">
+        <div class="container">
+            <div class="row">
+                <div class="display-header d-flex justify-content-between pb-3">
+                    <h2 class="display-7 text-dark text-uppercase">Latest Post</h2>
+                    <div class="btn-right"><a href="index.html"
+                         class="btn btn-medium btn-normal text-uppercase">Read Blog</a></div>
+                </div>
+
+                <div class="post-grid d-flex flex-wrap justify-content-between">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="me-5">
+                            <div class="card-image">
+                                <img src="assets/post-item1.jpg" alt="post-item1" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="card-body text-uppercase">
+                            <div class="card-meta text-muted mt-3">
+                                <span class="meta-date"> Feb 22, 2023</span>
+                                <span class="meta-category">- Gadgets</span>
+                            </div>
+                            <h3 class="card-title">Get some cool Gadgets in 2023</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="me-5">
+                            <div class="card-image">
+                                <img src="assets/post-item2.jpg" alt="post-item2" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="card-body text-uppercase">
+                            <div class="card-meta text-muted mt-3">
+                                <span class="meta-date"> Feb 22, 2023</span>
+                                <span class="meta-category">- Tecnology</span>
+                            </div>
+                            <h3 class="card-title">Technology hack you <br> won't get</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12 mb-5">
+                        <div class="me-5">
+                            <div class="card-image">
+                                <img src="assets/post-item3.jpg" alt="post-item3" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="card-body text-uppercase">
+                            <div class="card-meta text-muted mt-3">
+                                <span class="meta-date"> Feb 22, 2023</span>
+                                <span class="meta-category">- Camera</span>
+                            </div>
+                            <h3 class="card-title">Top 10 small camera in the word</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" class="align-items-center">
+        <div class="container">
+                <div class="review-item col justify-content-center">
+                    <div class="quotation text-center">
+                        <img src="assets/quote.png" alt="quote" height="100px">
+                    </div>
+                    <blockquote class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eveniet
+                         natus reprehenderit nostrum itaqueex ducimus tenetur modi, eaque libero ipsam
+                          adipisci obcaecati, voluptatum at provident, nulla aliquam doloremque?
+                          <div class="rating">
+                        <img src="assets/star.png" alt="star" width="30px" height="30px">
+                        <img src="assets/star.png" alt="star" width="30px" height="30px">
+                        <img src="assets/star.png" alt="star" width="30px" height="30px">
+                        <img src="assets/star_half.png" alt="star_half" width="30px" height="30px">
+                        <img src="assets/star_half.png" alt="star_half" width="30px" height="30px">
+                    </div>
+                    <div class="author-details">
+                        <div class="name text-uppercase text-dark pt-2">
+                           <h6> Emma Chamberlin</h6>
+                        </div>
+                    </div>
+                    </blockquote>
+                </div>
+        </div>
+    </section>
+
+    <section id="subcribe" class="container-grid padding-large">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="subscribe-content bg-dark d-flex flex-wrap justify-content-center align-items-center padding-medium">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="display-header pe-3">
+                            <h2 class="display-7 text-uppercase text-light">Subscribe us now</h2>
+                            <p class="subcribe-content">Get latest news, updates and deals directly mailed to your inbox.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <form action="">
+                            <div class="input-group flex-wrap">
+                                <input type="text" class="form-control btn-rounded-none"
+                                 placeholder="Enter you email address here" required>
+                                 <button class="btn btn-medium btn-primary text-uppercase btn-rounded-none" type="submit"
+                                 name="subcribe"> Subscribe
+                                 </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section id="instagram padding-large no-padding-top">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="display-header text-uppercase text-dark text-center pb-3">
+                    <h2 class="display-7">Shop our insta</h2>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center mb-5">
+                    <div class="instagram-item pe-2">
+                        <img src="assets/insta-item1.jpg" alt="insta-item1" height="250px" width="200px">
+                    </div>
+
+                    <div class="instagram-item pe-2">
+                        <img src="assets/insta-item2.jpg" alt="insta-item2" height="250px" width="200px">
+                    </div>
+
+                    <div class="instagram-item pe-2">
+                        <img src="assets/insta-item3.jpg" alt="insta-item3" height="250px" width="200px">
+                    </div>
+
+                    <div class="instagram-item pe-2">
+                        <img src="assets/insta-item4.jpg" alt="insta-item4" height="250px" width="200px">
+                    </div>
+
+                    <div class="instagram-item pe-2">
+                        <img src="assets/insta-item5.jpg" alt="insta-item5" height="250px" width="200px">
+                    </div>
+                </div>
+
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-top-area">
+                    <div class="row d-flex flex-wrap justify-content-between">
+                        <div class="col-lg-3 col-sm-6 pb-3">
+                            <div class="footer-menu">
+                                <img src="assets/main-logo.png" alt="main-logo">
+                                <p class="text-secondary">"Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                     Saepe nobis ullam nihil? Repellat hic ea ab modi officiis."</p>
+                                     <div class="social-links">
+                                        <div class="d-flex justify-content-between">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-instagram"></i>
+                                            <i class="fa-brands fa-twitter"></i>
+                                            <i class="fa-brands fa-linkedin"></i>
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </div>
+                                     </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 pb-3">
+                            <div class="footer-menu text-uppercase">
+                                <h5 class="widget-title pb-2">Quick Links</h5>
+                                <p class="menu-items ">Home</p>
+                                <p class="menu-items ">About</p>
+                                <p class="menu-items ">Shop</p>
+                                <p class="menu-items ">Blog</p>
+                                <p class="menu-items">Contact</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 pb-3">
+                            <div class="footer-menu text-uppercase">
+                                <h5 class="widget-title pb-2">Help and info</h5>
+                                <p class="menu-items ">Track your orders</p>
+                                <p class="menu-items ">Returns policies</p>
+                                <p class="menu-items ">Shipping + Delivery</p>
+                                <p class="menu-items ">Contact us</p>
+                                <p class="menu-items">Faqs</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 pb-3">
+                            <div class="footer-menu">
+                                <h5 class="widget-title pb-2">Contact Us</h5>
+                                <p class="text-secondary"> Do you have any quaries or suggestion?
+                                    <span class="text-black">yourinfo@gmail.com</span></p>
+                                <p class="text-secondary">"If you need any support? just give us a call."
+                                    <span class="text-black">+55 111 222 333 44</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row d-flex flex-wrap justify-content-between">
+                <div class="col-md-4 col-sm-6">
+                    <div class="shipping d-flex">
+                        <p class="text-secondary"> We ship with:</p>
+                        <div class="card-wrap ps-2">
+                            <img src="assets/dhl.png" alt="dhl">
+                            <img src="assets/shippingcard.png" alt="shippingcard">
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4 col-sm-6">
+                    <div class="payment-method d-flex">
+                          <p class="text-secondary">Payment option:</p>
+                          <div class="card-wrap ps-2">
+                            <img src="assets/visa.jpg" alt="visa">
+                            <img src="assets/mastercard.jpg" alt="mastercard">
+                            <img src="assets/paypal.jpg" alt="paypal">
+                          </div>
+                    </div>
+                 </div>
+
+                 <div class="col-md-4 col-sm-6">
+                    <div class="copyright">
+                        <p class="text-secondary">@ Copyright 2023 Ministore Design by
+                             <span class="text-black">TemplateJungle</span> Destribution by
+                              <span class="text-black">ThemeWagon</span></p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>

@@ -1,0 +1,166 @@
+body{
+    font-family: lato sans-serif;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+}
+
+.navbar-nav{
+    font-size: large;
+    font-weight: 400;
+}
+.nav-link :hover{
+    color: lightskyblue;
+}
+.header-icon{
+    cursor: pointer;
+}
+.header-icon :hover{
+    color: lightskyblue;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    margin-top: 200px;
+}
+.display-2{
+    font-size: calc(1.575rem + 3.9vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.btn.btn-medium{
+    padding-top: 0.8rem;
+    padding-right: 2.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 2.8rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.btn-rounded-none{
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.btn-product{
+    background-color: rgba(24, 23, 23, 0.87);
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    font-weight: 500;
+    font-size: larger;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+}
+.padding-large{
+    padding-top: 7em;
+}
+.container{
+    max-width: 720px;
+}
+.icon-box-icon img{
+    color: lightblue;
+}
+#company-services .icon-box{
+    flex-wrap: wrap;
+}
+h3.card-title{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+    color: var(--gray-color-500);
+}
+.btn-right{
+    text-align: right;
+    display: block;
+}
+.btn-right :hover{
+    text-decoration: underline;
+}
+.btn .btn-cart{
+    margin-left: 10px;
+}
+.cart-button{
+    align-items: center;
+}
+h3.card-title{
+    font-size: 1.5em;
+}
+
+.item-price{
+    font-size: 1.5em;
+}
+.container-phone{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-watches{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.padding-medium{
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.review-item blockquote{
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.subcribe-content{
+    color: rgba(255, 255, 255, 0.514);
+}
+.product-card{
+    position: relative;
+    overflow: hidden;
+}
+.product-card::after{
+    position: absolute;
+    content: "";
+    transition: 0.5s;
+    left: 0;
+}
+.product-card:hover .button-cart{
+    bottom: 10%;
+    cursor: pointer;
+}
+.button-cart{
+    background-color: rgba(24, 23, 23, 0.87);
+    position: absolute;
+    left: 20%;
+    transition: 0.5s ease-in-out;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.button-cart:hover{
+    background-color: rgb(35, 137, 201);
+    transform: scale(1.1);
+}
+
