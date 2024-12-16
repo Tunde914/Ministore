@@ -163,7 +163,7 @@ h3.card-title{
     background-color: rgb(35, 137, 201);
     transform: scale(1.1);
 }
-@media (max-width: 768px) {
+@media (max-width: 414px) {
     .responsive-image {
       display: none;
     }
